@@ -1,27 +1,37 @@
+
+:root {
+    --text-color: #000000;
+    --card-front-color: #ffffffe9;
+    --card-back-color: #000000;
+}
+
 body {
-    background-color: rgb(131, 81, 19);
+    background: url('img/gotas-de-agua-em-um-fundo-vermelho_251792-2467.avif');
 
 }
 
+
 #container {
-    display: flex;
+    display: flex; 
 }
 
 .cartao {
     margin: 1rem 1rem;
-    background-color: rgb(136, 9, 9);
     height: 20rem;
     flex-grow: 1;
     flex-basis: calc(33% - 6rem);
 }
 
 .cartao__conteudo {
+    background-color: var(--card-front-color);
     text-align: center;
+
     height: 100%;
 }
 
 .cartao__conteudo h3 {
-    background-color: tomato;
+    color: var(--text-color);
+    border: 1px solid var(--text-color);
     text-align: left;
     padding: 0.5rem;
     position: absolute;
@@ -33,6 +43,16 @@ body {
 .cartao__conteudo p {
     margin-top: 1rem;
     padding: 2rem;
+}
+
+.cartao__conteudo__pergunta p {
+    color: var(--text-color);
+    font-weight: 500;
+}
+
+.cartao__conteudo__resposta p {
+    color: var(--card-back-color);
+    font-weight: 700;
 }
 
 footer {
