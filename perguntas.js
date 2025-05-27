@@ -15,3 +15,8 @@ criaCartao(
     'Por quanto tempo uma Coca-Cola custou 5 centavos?',
     'De 1886 até 1959, o preço de uma Coca-Cola foi de 5 centavos nos Estados Unidos'
 )
+criaCartao(
+    'Curiosidades Coca-Cola',
+    'Como a Coca-Cola se chama na China e o que significa?',
+    'Na China, a Coca-Cola se chama Kekoukele, que significa diversão saborosa'
+)

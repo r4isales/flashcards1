@@ -9,7 +9,6 @@ body {
     background: url('img/gotas-de-agua-em-um-fundo-vermelho_251792-2467.avif');
 
 }
-
 #container {
     display: flex; 
     flex-wrap: wrap;
@@ -28,6 +27,7 @@ body {
 .cartao__conteudo {
     background-color: var(--card-front-color);
     text-align: center;
+    /* background-color: aquamarine; */
     height: 100%;
     transform-style: preserve-3d;
     transition: transform 300ms ease-in-out;
