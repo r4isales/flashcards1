@@ -8,6 +8,22 @@
 body {
     background: url('img/gotas-de-agua-em-um-fundo-vermelho_251792-2467.avif');
 
+    #topo {
+    background-color: #6d0012;
+    color: rgb(227, 227, 227);
+    text-align: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    border-bottom: 4px solid #ffffff;
+  }
+
+  #topo h1 {
+    font-size: 32px;
+    margin: 0;
+    text-shadow: 2px 2px #800000;
+  }
+
+
 }
 #container {
     display: flex; 
@@ -27,7 +43,6 @@ body {
 .cartao__conteudo {
     background-color: var(--card-front-color);
     text-align: center;
-    /* background-color: aquamarine; */
     height: 100%;
     transform-style: preserve-3d;
     transition: transform 300ms ease-in-out;
@@ -49,6 +64,7 @@ body {
     margin-top: 1rem;
     padding: 2rem;
     margin-top: 4rem;
+    font-size: 1.4vw;
 }
 
 .cartao__conteudo__pergunta p {
@@ -71,10 +87,13 @@ body {
     position: absolute;
     height: 100%;
     width: 100%;
+    box-sizing: border-box;
 }
 
 .cartao__conteudo__resposta {
     transform: rotateY(180deg);
+    background-color: rgba(0, 0, 0, 0.666);
+    border: 4px solid var(--card-back-color);
 }
 
 footer {
@@ -91,3 +110,4 @@ footer p {
     font-size: 0.6rem;
     margin-top: 0.5rem;
 }
+
